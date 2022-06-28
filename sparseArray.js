@@ -13,12 +13,3 @@ function sparseArray(string, queries) {
   return result;
 }
 sparseArray(["ab", "ab", "abc"], ["ab", "abc", "bc"]);
-
-// // object
-// // 2 for loops
-// function twoLoops(strings, queries) {
-//   const stringObj = Object.assign({}, strings);
-//   const queriesObj = Object.assign({}, queries);
-//   console.log(stringObj, queriesObj);
-// }
-// twoLoops(["ab", "ab", "abc"], ["ab", "abc", "bc"]);
