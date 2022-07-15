@@ -6,6 +6,4 @@ function findSingle(a) {
   return response;
 }
 
-let a = [3, 5, 4, 7, 5, 2, 3, 4, 2];
-let n = a.length;
-console.log(findSingle(a, n));
+console.log(findSingle([3, 5, 4, 7, 5, 2, 3, 4, 2]));
